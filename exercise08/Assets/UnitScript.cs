@@ -35,6 +35,12 @@ public class UnitScript : MonoBehaviour
         // Raise the position up 1.5 units
         rayStartPos.y = rayStartPos.y + 1.5f;
         Debug.DrawRay(rayStartPos, transform.forward * 10);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Debug.Log("space");
+                Destroy(gm.selectedUnit.gameObject);
+            }
     }
 
     private void OnMouseEnter()
@@ -75,4 +81,5 @@ public class UnitScript : MonoBehaviour
         gm.nameText.text = unitName;
         gm.descText.text = unitDesc;
     }
+   
 }

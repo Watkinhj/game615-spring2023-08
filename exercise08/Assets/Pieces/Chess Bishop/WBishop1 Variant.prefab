@@ -69,7 +69,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0abeebef65efee441b6d491c173d8bd6, type: 2}
     - target: {fileID: 919132149155446097, guid: f456c22bd7f9bd7409b8f5636f94979f, type: 3}
       propertyPath: m_Name
-      value: WBishop1
+      value: WBishop1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f456c22bd7f9bd7409b8f5636f94979f, type: 3}
+      propertyPath: m_TagString
+      value: unit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f456c22bd7f9bd7409b8f5636f94979f, type: 3}
